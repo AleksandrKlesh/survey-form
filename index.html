@@ -17,199 +17,200 @@
           </p>
         </header>
         <form id="survey-form">
-          <div class="form-group">
-            <label id="name-label" for="name">Name</label>
-            <input
-              id="name"
-              type="text"
-              name="name"
-              class="form-control"
-              placeholder="Enter your name"
-              required
-            />
-          </div>
-
-          <div class="form-group">
-            <label id="email-label" for="email">Email</label>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              class="form-control"
-              placeholder="Enter your email"
-              required
-            />
-          </div>
-
-          <div class="form-group">
-            <label id="number-label" for="age"
-              >Age<span class="clue">(optional)</span></label
-            >
-            <input
-              id="number"
-              type="number"
-              name="age"
-              min="10"
-              max="99"
-              class="form-control"
-              placeholder="Age"
-            />
-          </div>
-
-          <div class="form-group">
-            <p>Choose the character you like the best</p>
-            <select id="dropdown" name="character" class="form-control">
-              <option disabled selected value>Select character</option>
-              <option value="jinx">Jinx</option>
-              <option value="vi">Vi</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <p>Would you recomend Arcane to watch?</p>
-            <label>
-              <input
-                type="radio"
-                value="definately"
-                name="user-recommend"
-                class="input-radio"
-                checked
-              />
-              Definately</label
-            >
-            <label>
-              <input
-                type="radio"
-                value="maybe"
-                name="user-recommend"
-                class="input-radio"
-              />
-              Maybe</label
-            >
-            <input
-                type="radio"
-                value="not-sure"
-                name="user-recommend"
-                class="input-radio"
-              />
-              Not sure</label
-            >
-          </div>
-
-          <div class="form-group">
-            <p>What do you prefer?</p>
-            <select id="most-like" name="mos-like" class="form-control" required>
-              <option disabled selected value>Select a feature</option>
-              <option value="fists">Fists</option>
-              <option value="guns">Guns</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <p>Who or what would you like to know more about?<span class="clue">(Check all that apply)</span></p>
-
-            <label>
-              <input
-                type="checkbox"
-                value="vi"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Vi</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="jinx"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Jinx</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="jayce"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Jayce</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="silco"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Silco</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="viktor"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Viktor</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="vander"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Vander</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="caitlyn"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Caitlyn</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="heimerdinger"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Heimerdinger</label
-            >
-
-            <label>
-              <input
-                type="checkbox"
-                value="ekko"
-                name="know-more"
-                class="input-checkbox"
-              />
-              Ekko</label
-            >
-
             <div class="form-group">
-              <p>Any comments or suggestions?</p>
-              <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comment here..."></textarea>
+              <label id="name-label" for="name">Name</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
             </div>
 
             <div class="form-group">
-              <button id="submit" class="submit-button" type="submit">Submit</button>
+              <label id="email-label" for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
             </div>
 
-          </div>
+            <div class="form-group">
+              <label id="number-label" for="age"
+                >Age<span class="clue">(optional)</span></label
+              >
+              <input
+                id="number"
+                type="number"
+                name="age"
+                min="10"
+                max="99"
+                class="form-control"
+                placeholder="Age"
+              />
+            </div>
+
+            <div class="form-group">
+              <p>Choose the character you like the best</p>
+              <select id="dropdown" name="character" class="form-control">
+                <option disabled selected value>Select character</option>
+                <option value="jinx">Jinx</option>
+                <option value="vi">Vi</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <p>Would you recomend Arcane to watch?</p>
+              <label>
+                <input
+                  type="radio"
+                  value="definately"
+                  name="user-recommend"
+                  class="input-radio"
+                  checked
+                />
+                Definately</label
+              >
+              <label>
+                <input
+                  type="radio"
+                  value="maybe"
+                  name="user-recommend"
+                  class="input-radio"
+                />
+                Maybe</label
+              >
+              <input
+                  type="radio"
+                  value="not-sure"
+                  name="user-recommend"
+                  class="input-radio"
+                />
+                Not sure</label
+              >
+            </div>
+
+            <div class="form-group">
+              <p>What do you prefer?</p>
+              <select id="most-like" name="mos-like" class="form-control" required>
+                <option disabled selected value>Select a feature</option>
+                <option value="fists">Fists</option>
+                <option value="guns">Guns</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <p>Who or what would you like to know more about?<span class="clue">(Check all that apply)</span></p>
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="vi"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Vi</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="jinx"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Jinx</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="jayce"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Jayce</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="silco"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Silco</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="viktor"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Viktor</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="vander"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Vander</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="caitlyn"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Caitlyn</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="heimerdinger"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Heimerdinger</label
+              >
+
+              <label>
+                <input
+                  type="checkbox"
+                  value="ekko"
+                  name="know-more"
+                  class="input-checkbox"
+                />
+                Ekko</label
+              >
+
+              <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comment here..."></textarea>
+              </div>
+
+              <div class="form-group">
+                <button id="submit" class="submit-button" type="submit">Submit</button>
+              </div>
+
+            </div>
           
         </form>
+      
       </div>
     </main>
   </body>
